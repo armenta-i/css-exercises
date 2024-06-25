@@ -1,0 +1,19 @@
+.redBox {
+    background-color: rgba(255, 0, 0, 0.356);
+    font-family: Verdana, "DejaVu Sans", sans-serif;
+}
+
+.redBox.bigger {
+    font-size: 24px;
+}
+
+#numTwo {
+    color: blue;
+    font-size: 36px;
+}
+
+#numFour {
+    background-color: lightgreen;
+    font-size: 24px;
+    font-weight: bold;
+}
