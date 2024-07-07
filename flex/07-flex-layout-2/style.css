@@ -30,7 +30,7 @@ body {
   background: royalblue;
   box-sizing: border-box;
   padding: 15px;
-  font-size: larger;
+  font-size:x-large;
 }
 
 .sidebar > ul {
@@ -50,6 +50,7 @@ body {
   border-radius: 4px;
   max-width: 300px;
   padding: 15px;
+  flex: 1 1 initial ;
 }
 
 .main {
@@ -60,8 +61,9 @@ body {
 
 .card-container {
   display: flex;
+  justify-content: space-evenly;
   flex-flow: row wrap;
-  gap: 50px;
+  gap: 40px;
   padding: 40px;
   width: 1300px;
 }
